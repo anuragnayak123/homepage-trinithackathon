@@ -1,21 +1,20 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+import "/src/styles.css";
 
 function home(){
     return(
         <body>
-            <nav>
-                home
+            <nav align="right">
                 <a href=""><button>login</button></a>
                 <a href=""><button>signup</button></a>
             </nav>
-            <h1>title</h1>
-            <iframe src="https://giphy.com/embed/26gs9jTY1R02ueEnu" width="480" height="480" frameBorder="0" class="giphy-embed"></iframe>
+            <h1 classname="title">title</h1>            
             <div>
-                <h2>DESCRIPTION</h2>
-                <div>
+                <p>
+                    <h2>DESCRIPTION</h2>
                     some paragraph
-                </div>
+                </p>
             </div>
         </body>
     );
